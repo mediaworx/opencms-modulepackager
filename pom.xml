@@ -11,6 +11,35 @@
 
 	<name>OpenCms Module Packager</name>
 	<description>Creates an OpenCms module zip from a manifest file and a local VFS root</description>
+	<url>http://mediaworx.com</url>
+
+	<licenses>
+		<license>
+			<name>GNU Lesser General Public License</name>
+			<url>http://www.gnu.org/licenses/lgpl.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>mediaworx berlin AG</name>
+		<url>http://mediaworx.com</url>
+	</organization>
+
+	<scm>
+		<connection>scm:git:http://armstrong.mediaworx.de/cgit/mwx/opencms-modulepackager.git</connection>
+		<url>http://armstrong.mediaworx.de/cgit/mwx/opencms-modulepackager/</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>widmann@mediaworx.com</id>
+			<name>Kai Widmann</name>
+			<email>widmann@mediaworx.com</email>
+			<organization>mediaworx berlin AG</organization>
+			<organizationUrl>http://mediaworx.com</organizationUrl>
+		</developer>
+	</developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
