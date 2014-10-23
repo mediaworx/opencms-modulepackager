@@ -1,22 +1,29 @@
-/**
- * Copyright (c) 2014 mediaworx berlin AG (http://mediaworx.com)
+/*
+ * This file is part of the OpenCms Module Packager by mediaworx.
  *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 3 of the License, or (at your option) any later version.
+ * For further information about the OpenCms Module Packager, please see 
+ * the project website at GitHub: 
+ * https://github.com/mediaworx/opencms-modulepackager
  *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
+ * The OpenCms Module Packager is used by the OpenCms Plugin for IntelliJ. 
+ * For further information see the Plugin's project site at GitHub:
+ * https://github.com/mediaworx/opencms-intellijplugin
+ *  
+ * Copyright (C) 2012-2014 mediaworx berlin AG (http://www.mediaworx.com)
  *
- * For further information about mediaworx berlin AG, please see the
- * company website: http://mediaworx.com
+ * This program is free software; you can redistribute it and/or modify it 
+ * under the terms of the GNU General Public License as published by the 
+ * Free Software Foundation; either version 3 of the License, or (at your 
+ * option) any later version.
  *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library.
- * If not, see <http://www.gnu.org/licenses/>
+ * This program is distributed in the hope that it will be useful, but 
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+ * or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License 
+ * for more details.
+ *
+ * You should have received a copy of the GNU General Public License along 
+ * with this program; if not, write to the Free Software Foundation, Inc., 
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
 package com.mediaworx.opencms.moduleutils.packager;
@@ -37,7 +44,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Creates the zip file for OpenCms modules
+ * Packs module resources and the module's manifest.xml into an OpenCms module zip file.
  */
 public class OpenCmsModulePackager {
 
