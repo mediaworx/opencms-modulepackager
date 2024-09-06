@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.mediaworx.opencms</groupId>
+	<artifactId>opencms-modulepackager</artifactId>
+	<version>1.5</version>
+	<packaging>jar</packaging>
+
+	<name>OpenCms Module Packager</name>
+	<description>Creates an OpenCms module zip from a manifest file and a local VFS root</description>
+	<url>http://mediaworx.com</url>
+
+	<licenses>
+		<license>
+			<name>GNU Lesser General Public License</name>
+			<url>http://www.gnu.org/licenses/lgpl.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>mediaworx berlin AG</name>
+		<url>http://mediaworx.com</url>
+	</organization>
+
+	<scm>
+		<connection>scm:git:http://armstrong.mediaworx.de/cgit/mwx/opencms-modulepackager.git</connection>
+		<url>http://armstrong.mediaworx.de/cgit/mwx/opencms-modulepackager/</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>widmann@mediaworx.com</id>
+			<name>Kai Widmann</name>
+			<email>widmann@mediaworx.com</email>
+			<organization>mediaworx berlin AG</organization>
+			<organizationUrl>http://mediaworx.com</organizationUrl>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.13.0</version>
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.mediaworx.opencms</groupId>
+			<artifactId>opencms-xmlutils</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-compress</artifactId>
+			<version>1.26.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.30</version>
+		</dependency>
+	</dependencies>
+
+</project>
