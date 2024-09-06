@@ -70,6 +70,13 @@ public class OpenCmsModulePackager {
 	private String vfsRootPath;
 
 	/**
+	 * creates a new module packager that can be used to pack module resources and the module's manifest.xml into an
+	 * OpenCms module zip file
+	 */
+	public OpenCmsModulePackager() {
+	}
+
+	/**
 	 * Creates the zip file for the module described in the manifest file at the given <code>manifestRootPath</code>.
 	 * The VFS files are retrieved from the given <code>vfsRootPath</code>. The resulting zip file is placed at the
 	 * given <code>moduleZipTargetFolder</code>.
